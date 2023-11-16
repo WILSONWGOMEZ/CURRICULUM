@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #9ec0d4;
+    background: #e29b44;
     position: fixed;
     width: 100%;
     top: 0;
@@ -102,4 +102,7 @@ html{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+}
+.INICIO.contenido-banner .redes a:hover{
+    background-color: #1CB698;
 }
