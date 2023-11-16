@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #e29b44;
+    background: #1F2833;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #66FCF1;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -58,7 +58,7 @@ html{
 
 .INICIO{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/FONDO3.jpg);
+    url(Imagenes/FONDO4.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
