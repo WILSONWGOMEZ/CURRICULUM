@@ -304,8 +304,8 @@ html{
     width: 50%;
 }
 
-.sobremi .fila .col{
-    font-size:  22px;
+.sobremi .fila .col h3{
+    font-size:  28px;
     font-family:'Rigteous';
     margin-bottom: 25px;
 }
@@ -337,7 +337,7 @@ list-style: none;
     height: 100px;
     background-color: #252a2e;
     border-radius: 10px;
-    margin: 0 15px 15px 0;
+    margin: 0 18px 18px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,12 +345,8 @@ list-style: none;
     transition: .3s
     ;
 
-
 }
 
 
 
     
-
-
-
