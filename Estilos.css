@@ -283,7 +283,7 @@ list-style: none;
 }.sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #34495E;
+    background-color: rgb(32, 45, 60);
     border-radius: 10px;
     margin: 0 18px 18px 0;
     display: flex;
@@ -540,7 +540,7 @@ footer .arriba{
 /* Agregamos algunos estilos adicionales para mejorar la apariencia y la interactividad */
 .INICIO{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(imagenes/FONDO4.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
