@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1F2833;
+    background: #2C3E50;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #66FCF1;
+    color:#ECF0F1;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,72 +45,20 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color:  #3498DB;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color:#3498DB;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
-
-.INICIO{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(Imagenes/FONDO4.jpg);
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-.INICIO .contenido-banner{
-    padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-    border-radius: 40px;
-}
-.INICIO.contenido-banner img{
-    margin-top: 40px;
-    border: 10px solid #1CB698;
-    display: block;
-    width: 80%;
-    margin: auto;
-    border-radius: 100%;
-}
-.INICIO .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 42px;
-    font-family: 'Righteous';
-}
-.INICIO.contenido-banner h2{
-    font-size: 15px;
-    font-weight: normal;
-}
-.INICIO .contenido-banner .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-.INICIO.contenido-banner .redes a:hover{
-    background-color: #1CB698;
-
-}
 /* SECCION CURRICULUM */
 .CURRICULUM{
-    background-color: #1e2326;
-    color: #fff;
+    background-color:#34495E;
+    color:#ECF0F1;
     padding: 50px 20px;
 }
 .CURRICULUM .contenido-seccion{
@@ -214,7 +162,7 @@ html{
     bottom: 4px;
 }
 .portfolio{
-    background-color: #252A2E;
+    background-color: #34495E;
     color: #fff;
     padding: 50px 20px;
 }
@@ -270,8 +218,8 @@ html{
     margin-bottom: 0px;
 }
 .sobremi{
-    background-color: #1F2833;
-    color: #fff;
+    background-color:#34495E;
+    color:#ECF0F1;
     padding: 50px 20px;
 
 }
@@ -293,7 +241,7 @@ html{
 
 }
 .sobremi .Contenido-seccion p span{
-    color: #45a29e;
+    color: #1CB698;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -335,7 +283,7 @@ list-style: none;
 }.sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252a2e;
+    background-color: #34495E;
     border-radius: 10px;
     margin: 0 18px 18px 0;
     display: flex;
@@ -348,7 +296,7 @@ list-style: none;
 }
 /* HOBBIES */
 .hobbies {
-    background-color: #1F2833;
+    background-color:#34495E;
     color: #fff;
     padding: 50px 20px;
 }
@@ -424,7 +372,7 @@ list-style: none;
 }
 /* SECCION CERTIFICACIONES */
 .certificaciones {
-    background-color: #1e2326;;
+    background-color: #34495E;
     color: #fff;
     padding: 50px 0;
   }
@@ -470,7 +418,7 @@ list-style: none;
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #252a2e;
+    background-color:#2C3E50;
     color: #fff;
     padding: 50px 0;
 }
@@ -505,7 +453,7 @@ list-style: none;
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #ECF0F1;
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -552,8 +500,8 @@ list-style: none;
     margin-right: 20px;
 }
 footer{
-    background-color: #252A2E;
-    color: #fff;
+    background-color: #2C3E50;
+    color: #ECF0F1;
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -589,5 +537,54 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-
-    
+/* Agregamos algunos estilos adicionales para mejorar la apariencia y la interactividad */
+.INICIO{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.INICIO .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.INICIO .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.INICIO .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.INICIO .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.INICIO .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.INICIO .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+}
